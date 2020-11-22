@@ -30,8 +30,10 @@ body{
 	z-index: 10;
 }
 .navbar{
-	background-image: linear-gradient(to right,#a517ba,#5f17f2);
+	background-image: linear-gradient(-80deg,rgb(16, 214, 245),rgb(239, 33, 239));
 	padding: 0!important; 
+	border-bottom: 3px solid #888;
+	box-shadow: 2px 1px 15px 2px #559;
 }
 .navbar-brand img
 {
@@ -41,22 +43,24 @@ body{
 .navbar-nav li
 {
 	/* display: block; */
-	padding: 0px 10px;
+	padding: 0px 5px;
+	transition: .2s;
 	/* display: block!important; */
 }
 .navbar-nav li a
 {
-	color: #fff!important;
+	color: #000!important;
 	font-weight: 600;
 	font-size: 16px;
 	text-transform: uppercase;
 	float: right;
 	text-align: left;
-	transition: .4s;
+	transition: .5s;
 
 }
 .navbar-nav li:hover{
-	border-bottom: 3px solid #fff;
+	border-bottom: 2px solid #555;
+
 
 }
 
@@ -73,7 +77,8 @@ body{
 /* Start banner section */
 #banner
 {
-	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	background-image: linear-gradient(57deg, #00eaff,#cf20e3);
+	opacity: ;
 	color: #fff;
 	padding-top: 5%;
 }
@@ -115,7 +120,7 @@ body{
 #banner_bottom_img
 {
 	transform: rotateX(180deg);
-	margin-top: -65px;
+	margin-top: -90px;
 }
 /* **********************start services pert ********************************/
 .services_headding .head
@@ -248,7 +253,7 @@ body{
  /* #5f178200 */
  /* *************** contact ************************* */
  #contact{
- 	background: linear-gradient(to right, #609a,#003a), url('https://c0.wallpaperflare.com/preview/640/862/565/background-business-business-cards-coffee.jpg');
+ 	background: linear-gradient(57deg, #000e,#f0f9), url('https://c0.wallpaperflare.com/preview/640/862/565/background-business-business-cards-coffee.jpg');
  	/* background-position: fixed; */
  	background-attachment: fixed;
  	/* z-index: -1; */
@@ -308,7 +313,7 @@ body{
  	.footer_heder{
  		height: 70px;
  		width: 100%;
- 		background-color: #002;
+ 		background-color: #555;
 
  	}
  	.footer_number{
@@ -339,8 +344,9 @@ body{
 
  	/* fonts contant */
  	.footer_contant{
+		 padding-top: 50px;
  		height: auto;
- 		background: #123;
+ 		background: #121;
  		color: #fff;
  		width: 100%;
  	}
